@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.copyOnSelection": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "sql-formatter.uppercase": true,
+    "vsicons.dontShowNewVersionMessage": true
+}
