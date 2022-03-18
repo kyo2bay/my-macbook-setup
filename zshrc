@@ -13,8 +13,9 @@ alias gco="git checkout"
 alias gsw="git switch"
 
 alias d="docker"
-alias k="kubectl"
 alias g="gcloud"
+alias fb="firebase"
+alias k="kubectl"
 alias tf="terraform"
 
 setopt auto_cd
