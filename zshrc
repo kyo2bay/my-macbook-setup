@@ -13,8 +13,8 @@ alias gco="git checkout"
 alias gsw="git switch"
 
 alias d="docker"
-alias g="gcloud"
 alias fb="firebase"
+alias g="gcloud"
 alias k="kubectl"
 alias tf="terraform"
 
