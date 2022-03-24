@@ -8,7 +8,7 @@ https://brew.sh
 # install software and tool
 ```sh
 brew install bat circleci curl git jq node go terraform tree
-brew install cmd-eikana clipy deepl docker google-chrome iterm2 notion skype sublime-text visual-studio-code zoom zoomus --cask
+brew install cmd-eikana clipy deepl discord docker google-chrome iterm2 notion skype sublime-text table-tool visual-studio-code zoom zoomus --cask
 ```
 
 # set up iceberg (iTerm)
