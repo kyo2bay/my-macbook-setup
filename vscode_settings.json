@@ -1,13 +1,30 @@
 {
     "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
     "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
     "editor.wordWrap": "on",
-    "window.zoomLevel": 0,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "vscode-icons",
-    "terminal.integrated.copyOnSelection": true,
-    "files.trimTrailingWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.copyOnSelection": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "newUntitledFile",
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+
+    "go.useLanguageServer": true,
+    "go.toolsManagement.autoUpdate": true,
+    "indentRainbow.includedLanguages": ["vue"],
+    "jest.jestCommandLine": "npm run test --",
     "sql-formatter.uppercase": true,
-    "vsicons.dontShowNewVersionMessage": true
+    "bracketPairColorizer.depreciation-notice": false
 }
