@@ -7,8 +7,8 @@ https://brew.sh
 
 # install software and tool
 ```sh
-brew install bat circleci curl git jq node go terraform tree
-brew install cmd-eikana clipy deepl discord docker google-chrome iterm2 notion skype sublime-text table-tool visual-studio-code zoom zoomus --cask
+brew install bat curl exa git jq node go python terraform tree zsh-completions
+brew install cmd-eikana clipy deepl discord docker google-chrome iterm2 notion slack sublime-text table-tool visual-studio-code zoom --cask
 ```
 
 # set up iceberg (iTerm)
@@ -24,7 +24,7 @@ git config --global user.name <name>
 git config --global color.ui true
 mkdir -p ~/.config/git && echo '.DS_Store' >> ~/.config/git/ignore
 ```
-https://qiita.com/ucan-lab/items/e02f2d3a35f266631f24
+https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 # install google cloud sdk
 https://cloud.google.com/sdk/docs/install
