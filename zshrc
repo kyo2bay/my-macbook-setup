@@ -13,6 +13,7 @@ alias gco="git checkout"
 alias gsw="git switch"
 
 alias d="docker"
+alias dc="docker compose"
 alias fb="firebase"
 alias g="gcloud"
 alias k="kubectl"
