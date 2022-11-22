@@ -21,7 +21,10 @@ https://www.logitech.com/en-us/product/options
 ```sh
 git config --global user.email <email>
 git config --global user.name <name>
-git config --global color.ui true
+git config --global fetch.prune true
+git config --global rebase.autostash true
+git config --global rebase.autosquash true
+git config --global push.autoSetupRemote true
 mkdir -p ~/.config/git && echo '.DS_Store' >> ~/.config/git/ignore
 ```
 https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
