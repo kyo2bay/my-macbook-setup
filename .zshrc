@@ -1,8 +1,8 @@
+alias ..="cd .."
 alias ll="ls -l"
 alias la="ls -la"
 alias lR="ls -lR"
 alias lt="ls -ltr"
-alias ..="cd .."
 alias less="less -N"
 alias ga="git add"
 alias gc="git commit"
@@ -26,10 +26,11 @@ setopt share_history
 setopt +o nomatch
 
 export CLICOLOR=1
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$PATH
 export LC_ALL=en_US.UTF-8
 export PS1='%. %# '
+
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # Git
