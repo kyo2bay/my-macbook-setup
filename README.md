@@ -11,12 +11,6 @@ brew install bat curl exa gh git jq node go python terraform tree zsh-completion
 brew install cmd-eikana clipy deepl discord docker git-credential-manager google-chrome iterm2 notion slack sublime-text table-tool visual-studio-code zoom --cask
 ```
 
-# set up iceberg (iTerm)
-https://github.com/Arc0re/Iceberg-iTerm2
-
-# install Logitech Options
-https://www.logitech.com/en-us/product/options
-
 # set up git
 ```sh
 git config --global user.email <email>
@@ -27,7 +21,12 @@ git config --global rebase.autosquash true
 git config --global push.autoSetupRemote true
 mkdir -p ~/.config/git && echo '.DS_Store' >> ~/.config/git/ignore
 ```
-https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+# install Logitech Options
+https://www.logitech.com/en-us/product/options
+
+# set up iceberg (iTerm)
+https://github.com/Arc0re/Iceberg-iTerm2
 
 # install google cloud sdk
 https://cloud.google.com/sdk/docs/install
