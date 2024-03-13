@@ -23,6 +23,7 @@ git config --global user.name <name>
 git config --global fetch.prune true
 git config --global rebase.autostash true
 git config --global rebase.autosquash true
+git config --global pull.autostash true
 git config --global push.autoSetupRemote true
 mkdir -p ~/.config/git && echo '.DS_Store' >> ~/.config/git/ignore
 ```
