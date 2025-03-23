@@ -11,7 +11,7 @@ https://brew.sh
 ## install software and tool
 
 ```sh
-brew install bat curl exa gh git jq node go python terraform tree zsh-completions
+brew install bat curl gh git jq lsd node go python terraform tree zsh-completions
 brew install cmd-eikana clipy deepl discord docker git-credential-manager google-chrome iterm2 notion slack sublime-text table-tool visual-studio-code zoom --cask
 ```
 
