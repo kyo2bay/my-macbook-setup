@@ -29,10 +29,6 @@ export CLICOLOR=1
 export LC_ALL=en_US.UTF-8
 export PS1='%. %# '
 
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$PATH
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
 # Git
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
